@@ -37,3 +37,28 @@ the internet, and the data-set which I m using is the data for `Lung Cancer` dow
 8. Plot ROC Curve (Reciever Operating Characterstic Curve) for both the Regression
 
 <hr>
+
+## Assignment 2 (a) Notes
+### Apply and understand the Naïve Bayes Classifier and Support Vector Machine (SVM) on spam SMS detection/spam email detection/bot detection. Interpret the results using suitable plots.
+
+The steps for the implementation are as follows
+
+1. We are first importing all the required module for performing, and then we are importing our datasets downloaded from
+the internet, and the data-set which I m using is the data for `Spam Mail Detection` downloaded from <a href="https://www.kaggle.com/datasets/venky73/spam-mails-dataset">Kaggle.com</a>
+
+2. After downloading the dataset, we will first clean the data by removing unwanted columns here those columns are `Id` and `label_num`, and we will be renaming the columns for our convienience.
+
+3. We will then count the dataset by sorting it by label, then draw a bar graph with the resulting data
+
+4. Now we are using Multinomial Bayes Algorithm, As you can see that I have incorporated a recall test and precision test also to access my model more accurately as how much good my model is performing.
+Now for different values of alpha, I would make a table to see various measures such as Train Accuracy, Test Accuracy, Test Recall, Test Precision.
+
+5. We will then see the best index for Test Precision
+
+6. We will then be implementing the Random Forest, so we are using the random classifier function, fit the model and train it to calculate the precision
+
+7. Using TensorFlow we will then tokenise the input and then send it for further procession
+
+8. At last we will write the function which will have an input string as its argument and predict whether the string is a spam mail or not
+
+<hr>

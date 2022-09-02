@@ -62,3 +62,10 @@ Now for different values of alpha, I would make a table to see various measures 
 8. At last we will write the function which will have an input string as its argument and predict whether the string is a spam mail or not
 
 <hr>
+
+## Assignment 4 Notes
+### Design a Tableau dashboard on any one of this Sales Forecast Analysis Dashboard/Patient Risk Healthcare Dashboard/COVID Analytics dashboard. Use any suitable dataset to design a dashboard.
+
+The link for the Tableau file can be accessed here <a href="https://public.tableau.com/app/profile/k.c.varun/viz/Assignment4_16620949771540/Dashboard1?publish=yes">Assignment4</a>
+
+<hr>

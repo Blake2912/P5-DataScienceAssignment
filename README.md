@@ -97,6 +97,38 @@ The steps for the implementation are as follows:
 
 <hr>
 
+## Assignment 3 Notes
+### Write a Python program to calculate clusters using the Hierarchical Clustering method. Perform Text analysis using topic modeling algorithms.
+
+The steps for the implementation are as follows
+
+<strong>a. Clustering</strong>
+
+1. Import the required Modules
+
+2. The dataset used here is the IPL-2018 Batting stats
+
+3. Then draw the dendogram for the columns of my choice here I have chosen Runs and No
+
+4. Draw the clusters
+
+<strong>b. Text Analysis</strong>
+
+1. Import required modules and clean the data
+
+2. Draw the word cloud
+
+3. Perform LDA
+
+4. Remove all stop words
+
+5. Create a corpus dictionary
+
+6. Train the model
+
+<hr>
+
+
 ## Assignment 4 Notes
 ### Design a Tableau dashboard on any one of this Sales Forecast Analysis Dashboard/Patient Risk Healthcare Dashboard/COVID Analytics dashboard. Use any suitable dataset to design a dashboard.
 

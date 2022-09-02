@@ -41,7 +41,7 @@ the internet, and the data-set which I m using is the data for `Lung Cancer` dow
 ## Assignment 2 (a) Notes
 ### Apply and understand the Naïve Bayes Classifier and Support Vector Machine (SVM) on spam SMS detection/spam email detection/bot detection. Interpret the results using suitable plots.
 
-The steps for the implementation are as follows
+The steps for the implementation are as follows:
 
 1. We are first importing all the required module for performing, and then we are importing our datasets downloaded from
 the internet, and the data-set which I m using is the data for `Spam Mail Detection` downloaded from <a href="https://www.kaggle.com/datasets/venky73/spam-mails-dataset">Kaggle.com</a>
@@ -60,6 +60,40 @@ Now for different values of alpha, I would make a table to see various measures 
 7. Using TensorFlow we will then tokenise the input and then send it for further procession
 
 8. At last we will write the function which will have an input string as its argument and predict whether the string is a spam mail or not
+
+## Assignment 2 (b) Notes
+### Build a Random Forest Classifier and KNN to classify the CIFAR-10 images or any suitable image dataset.
+
+The steps for the implementation are as follows:
+
+1. In dataset acquisition we will be using the `CIFAR-10` dataset, it can be easily downloaded with a simple code. The `CIFAR-10` dataset consists of 10 classes namely,airplane, automobile,bird,cat,deer,dog,frog,horse,ship and truck.
+
+2. First we will import the required packages.
+
+3. Then load the `CIFAR-10` dataset, obtain the shape of the train and test datasets.
+
+4. Dataset Pre-processing
+	- Normailzation takes place we divide `x_train` by 255.0 for the train dataset and `x_test` by 255.0 for the test dataset.
+
+5. We then train the dataset in sklearn, which creates a 4D Array.
+
+6. Similarly we then test the dataset.
+
+7. Implement the Random Forest Classifier, to classify the CIFAR-10 Images, then we will start training the model
+
+8. The model will return the class of the data ranging from 0-9 with the corresponding class names like
+	```
+	0 	->	Ariplane
+	1	-> 	Automobile
+	... so on
+	```
+
+9. Then evaluate the accuracy of the model by getting the confusion matrix and classifcation report
+
+10. Implement the KNN i.e. K-Nearest Neighbours and train the model with the CIFAR-10 dataset
+
+11. Then we test this using a custom input, here i took a picture of a bird
+
 
 <hr>
 
